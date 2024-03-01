@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-01 08:53:33 "/>
+        <attribute name="created" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDE7IjA4OjEzOjExICI7MjM0OQ=="/>
+        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDE7IjA4OjUzOjMzICI7MjsyNDY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="forca, massaA, massaB, distancia" type="Real" array="False" size=""/>
+            <input variable="distancia"/>
+            <input variable="massaB"/>
+            <input variable="forca"/>
+            <assign variable="massaA" expression="(forca * distancia ^2) / (massaB * 6.67408 * 10 ^(-11))"/>
+            <output expression="massaA * 1000" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
