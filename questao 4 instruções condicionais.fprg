@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-01 10:28:37 "/>
+        <attribute name="created" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDE7IjEwOjAxOjA4ICI7MjM0NQ=="/>
+        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDE7IjEwOjI4OjM3ICI7MTsyNDY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="categoria" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual a categoria?&quot;" newline="True"/>
+            <input variable="categoria"/>
+            <if expression="categoria &gt;=1 and categoria &lt;=10">
+                <then>
+                    <output expression="&quot;Categoria de Alimentacao&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="categoria &gt;=11 and categoria &lt;=20">
+                <then>
+                    <output expression="&quot;Categoria de Limpeza&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="categoria &gt;=21 and categoria &lt;=30">
+                <then>
+                    <output expression="&quot;Categoria de Eletronicos&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
