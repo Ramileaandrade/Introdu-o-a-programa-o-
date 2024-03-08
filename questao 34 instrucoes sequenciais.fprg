@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-08 08:43:52 "/>
+        <attribute name="created" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDg7IjA4OjI1OjMwICI7MjM2MA=="/>
+        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDg7IjA4OjQzOjUyICI7MTsyNDcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;informe um valor pra a e b&quot;" newline="True"/>
+            <declare name="Desigualdade" type="Boolean" array="False" size=""/>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="Desigualdade" expression="a &lt;&gt; b"/>
+            <output expression="Desigualdade" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
